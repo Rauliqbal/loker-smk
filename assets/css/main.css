@@ -11,9 +11,25 @@
         @apply max-w-[85rem] mx-auto px-4 sm:px-6 md:px-8
     }
 
+    section {
+        @apply py-28
+    }
+
+}
+
+@layer components {
+    .section-title {
+        @apply text-3xl md:text-4xl tracking-wide font-semibold
+    }
+
+    .desc {
+        @apply text-lg leading-relaxed
+    }
+
+    .btn-primary {
+        @apply py-3 px-6 text-white font-semibold text-base rounded-lg bg-blue-500 hover:bg-blue-800 focus:scale-95 transition-all duration-200 ease-out 
+    }
 }
 
 @layerr utilities {
-
-
 }

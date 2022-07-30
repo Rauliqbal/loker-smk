@@ -1,13 +1,15 @@
 <template>
   <div>
-    <Hero/>
-    <About/>
-    <ExploreJobs/>
+    
   </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage',
+
 }
 </script>
+
+<style>
+
+</style>
