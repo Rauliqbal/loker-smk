@@ -1,13 +1,8 @@
 <template>
-  <div>
-    <Hero/>
-    <About/>
-    <ExploreJobs/>
-  </div>
+   <main>
+      <HomepageHero />
+      <HomepageJobs />
+      <HomepageHowitwork />
+      <HomepageFaq />
+   </main>
 </template>
-
-<script>
-export default {
-  name: 'IndexPage',
-}
-</script>
